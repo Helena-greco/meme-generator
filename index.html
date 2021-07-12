@@ -14,12 +14,15 @@
   <main>
     <section class="text-files">
       <label>Texto: </label>
-      <input type="text" placeholder="Digite aqui o texto" id="text-input">
+      <input type="text" placeholder="Digite aqui o texto" id="text-input" maxlength="60">
       <label>Foto:</label>
-      <input id="img-input" type="file" name="arquivos">
+      <input id="meme-insert" type="file" name="arquivos">
     </section>
     <div id="meme-image-container">
-      <p id="meme-text"></p>
+      <img id="meme-image" src="" alt="">
+      <div id="espacador">
+        <p id="meme-text"></p>
+      </div>
     </div>
   </main>
   <script src="script.js"></script>

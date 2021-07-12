@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .text-files {
   text-align: center;
   font-weight: bold;
@@ -6,6 +12,7 @@
 header {
   text-align: center;
   text-shadow: rgb(89, 86, 86) 2px 3px 2px;
+  margin-bottom: 15px;
 }
 
 body {
@@ -15,24 +22,43 @@ body {
 
 #meme-text {
   position: absolute;
+  z-index: 1;
   display: flex;
   font-size: 30px;
   font-family:'Times New Roman', Times, serif;
   font-weight: bold;
-  color: rgb(245, 200, 18);
+  color: white;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #000;
+  text-shadow: black 5px 5px 5px;
   word-break: break-word;
-  width: 400px;
+  width: 420px;
   height: 100px;
   margin: 15px 15px 15px 15px;
+  text-align: center;
+  justify-content: center;
+}
+
+#espacador {
+  display: flex;
+  margin-top: 250px;
+  justify-content: center;
 }
 
 #meme-image-container {
   width: 450px;
   height: 400px;
-  border: solid rgb(0, 0, 0) 2px;
-  background-color: rgb(250, 234, 234);
+  border: solid rgb(0, 0, 0) 1px;
+  background-color: white;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 30px;
+}
+
+#meme-image {
+  display: inline-block;
+  position: absolute;
+  background-color: white;
+  border:  1px solid black;
+  width: 448px;
+  height: 398px;
 }
