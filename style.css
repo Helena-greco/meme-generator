@@ -1,0 +1,21 @@
+#meme-image-container {
+  width: 500px;
+  height: 400px;
+  border: solid black 1px;
+  background-color: white;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.text-files {
+  text-align: center;
+}
+
+header {
+  text-align: center;
+}
+
+body {
+  background: rgb(247,224,215);
+  background: radial-gradient(circle, rgba(247,224,215,1) 0%, rgba(189,122,91,1) 100%);
+}
