@@ -10,7 +10,8 @@ function createText() {
 
 inputText.addEventListener('input', createText);
 
-/** Ref: https://stackoverflow.com/questions/4459379/preview-an-image-before-it-is-uploaded/27165977#27165977 */
+/** Ref: https://stackoverflow.com/questions/4459379/preview-an-image-before-it-is-uploaded/27165977#27165977
+ * https://developer.mozilla.org/en-US/docs/Web/API/FileReader */
 function loadFile(event) {
   const selectImg = event.target.files[0];
   const reader = new FileReader();
